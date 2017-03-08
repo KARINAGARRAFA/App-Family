@@ -6,22 +6,22 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener{
-    Button boton;
+public class RegistroG extends AppCompatActivity implements View.OnClickListener{
+    Button yacuenta;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        boton = (Button) findViewById(R.id.btnRegistrase);
-        boton.setOnClickListener(this);
-            }
+        setContentView(R.layout.activity_registro_g);
+        yacuenta =(Button) findViewById(R.id.btnYaCuanta);
+        yacuenta.setOnClickListener(this);
+    }
 
     @Override
     public void onClick(View v) {
         switch (v.getId()){
-            case R.id.btnRegistrase:
-                Intent i=new Intent(this,RegistroG.class);
+            case R.id.btnYaCuanta:
+                Intent i=new Intent(this,LoginGeneral.class);
                 startActivity(i);
                 break;
             default:

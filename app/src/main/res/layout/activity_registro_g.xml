@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.lsc.familialaureana.RegistroG">
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:visibility="gone" />
+
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:id="@+id/email_login_form"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:text="@string/registro"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@android:color/black" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_marginTop"
+                app:srcCompat="@drawable/logo1"
+                android:id="@+id/imageView5"
+                android:layout_weight="1"
+                android:contentDescription=""
+                tools:ignore="ContentDescription,InefficientWeight" />
+            <TextView
+                android:text="@string/soy"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:id="@+id/textVi"
+                android:textAlignment="center"
+                android:textSize="24sp"
+                android:textColor="@android:color/black" />
+
+            <Button
+                android:text="@string/docente"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:id="@+id/btnDocente"
+                android:background="@color/colorNaranja"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold"
+                android:textSize="@dimen/text_size_standard2" />
+
+            <Button
+                android:text="@string/padre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_marginTop"
+                android:background="@color/colorverde"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold"
+                android:textSize="@dimen/text_size_standard2"
+                android:id="@+id/btnPadre" />
+            <Button
+                android:text="@string/estuante"
+                android:layout_marginTop="@dimen/layout_marginTop"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/colorCeleste"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold"
+                android:textSize="@dimen/text_size_standard2"
+                android:id="@+id/btnEstudiante" />
+            <Button
+                android:text="@string/ya_tengo_mi_cuenta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/layout_marginTop"
+                android:background="@color/colorRojo"
+                android:textColor="@android:color/background_light"
+                android:textStyle="normal|bold"
+                android:textSize="@dimen/text_size_standard2"
+                android:id="@+id/btnYaCuanta" />
+
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>
