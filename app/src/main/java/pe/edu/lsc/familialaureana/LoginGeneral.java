@@ -2,8 +2,10 @@ package pe.edu.lsc.familialaureana;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.Button;
 
 public class LoginGeneral extends AppCompatActivity {
+    Button ads;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
