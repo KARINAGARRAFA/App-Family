@@ -16,6 +16,9 @@
     <string name="google">Google</string>
     <string name="laura_de_santa_catalina">Laura de Santa Catalina</string>
     <string name="llamar">Llamar</string>
+    <string name="numero">numero de la institucion</string>
+    <string name="escribir">Escribir el mensaje aquí</string>
+    <string name="enviar">Enviar Memsaje</string>
     <string name="bienvenido_a">BIENVENIDO(A)</string>
     <string name="entra_a_nuestra_plataforma">Entra a nuestra plataforma</string>
     <string name="visita_nuestro_sitio_web">Visita nuestro sitio web</string>
@@ -44,4 +47,9 @@
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
+    <string name="title_activity_ubicacion">Mapa</string>
+    <string name="dni">DNI</string>
+    <string name="verificar">Verificar Cuenta</string>
+    <string name="verifi">Verificación de DNI</string>
+    <string name="iniciar">Iniciar SESION? </string>
 </resources>

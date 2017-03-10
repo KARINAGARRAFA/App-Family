@@ -93,7 +93,7 @@
                 android:textAlignment="center"
                 android:textSize="@dimen/text_size_standard"/>
 
-            <TableLayout
+                <TableLayout
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/layout_marginTop"
                 android:layout_marginLeft="100dp"
@@ -109,38 +109,41 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/mensaje"
-                        android:id="@+id/imageView10"
+                        android:id="@+id/imageMensaje"
                         tools:ignore="ContentDescription" />
+
                     <TextView
-                        android:text="@string/mensaje"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="15dp"
+                        android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView4"
-                        android:textSize="@dimen/text_size_standard"/>
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/mensaje"
+                        android:textSize="@dimen/text_size_standard" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent" >
+
                     <ImageView
+                        android:id="@+id/imageLlamada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/llamar"
-                        android:id="@+id/imageView11"
                         tools:ignore="ContentDescription" />
 
                     <TextView
-                        android:text="@string/llamar"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView6"
-                        tools:ignore="RtlHardcoded"
-                        android:textSize="@dimen/text_size_standard"/>
+                        android:text="@string/llamar"
+                        android:textSize="@dimen/text_size_standard"
+                        tools:ignore="RtlHardcoded" />
+
                 </TableRow>
 
                 <TableRow
@@ -152,7 +155,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/ubicacion"
-                        android:id="@+id/imageView8"
+                        android:id="@+id/imageUbicacion"
                         tools:ignore="ContentDescription" />
                     <TextView
                         android:text="@string/ver_ubicaion_en_mapa"
@@ -169,10 +172,10 @@
                     android:layout_height="match_parent" >
 
                     <ImageView
+                        android:id="@+id/imageVisita"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/web"
-                        android:id="@+id/imageView9"
                         tools:ignore="ContentDescription" />
 
                     <TextView
