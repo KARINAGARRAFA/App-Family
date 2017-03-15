@@ -7,6 +7,9 @@
     <dimen name="text_size_standard">14sp</dimen>
     <dimen name="text_size_standard2">20sp</dimen>
     <dimen name="text_size_standard1">10sp</dimen>
-    <dimen name="layout_marginTop">10dp</dimen>
+    <dimen name="layout_marginTop">20dp</dimen>
     <dimen name="layout_marginTop2">20dp</dimen>
+
+    <item name="visible" type="id"/>
+    <item name="masked" type="id"/>
 </resources>

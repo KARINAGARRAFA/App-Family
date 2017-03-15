@@ -84,14 +84,16 @@
 
             <TextView
                 android:text="@string/mensale"
-                android:layout_marginTop="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:id="@+id/textView3"
                 android:textAlignment="center"
                 android:textSize="@dimen/text_size_standard"/>
 
-            <TableLayout
+                <TableLayout
                 android:layout_width="match_parent"
                 android:layout_marginTop="@dimen/layout_marginTop"
                 android:layout_marginLeft="100dp"
@@ -107,38 +109,41 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/mensaje"
-                        android:id="@+id/imageView10"
+                        android:id="@+id/imageMensaje"
                         tools:ignore="ContentDescription" />
+
                     <TextView
-                        android:text="@string/mensaje"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginTop="15dp"
+                        android:id="@+id/textView4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView4"
-                        android:textSize="@dimen/text_size_standard"/>
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginTop="15dp"
+                        android:text="@string/mensaje"
+                        android:textSize="@dimen/text_size_standard" />
                 </TableRow>
 
                 <TableRow
                     android:layout_width="match_parent"
                     android:layout_marginTop="10dp"
                     android:layout_height="match_parent" >
+
                     <ImageView
+                        android:id="@+id/imageLlamada"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/llamar"
-                        android:id="@+id/imageView11"
                         tools:ignore="ContentDescription" />
 
                     <TextView
-                        android:text="@string/llamar"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
                         android:layout_marginLeft="10dp"
                         android:layout_marginTop="15dp"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView6"
-                        tools:ignore="RtlHardcoded"
-                        android:textSize="@dimen/text_size_standard"/>
+                        android:text="@string/llamar"
+                        android:textSize="@dimen/text_size_standard"
+                        tools:ignore="RtlHardcoded" />
+
                 </TableRow>
 
                 <TableRow
@@ -150,7 +155,7 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/ubicacion"
-                        android:id="@+id/imageView8"
+                        android:id="@+id/imageUbicacion"
                         tools:ignore="ContentDescription" />
                     <TextView
                         android:text="@string/ver_ubicaion_en_mapa"
@@ -167,10 +172,10 @@
                     android:layout_height="match_parent" >
 
                     <ImageView
+                        android:id="@+id/imageVisita"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         app:srcCompat="@drawable/web"
-                        android:id="@+id/imageView9"
                         tools:ignore="ContentDescription" />
 
                     <TextView
@@ -182,82 +187,84 @@
                         android:textSize="@dimen/text_size_standard"/>
                 </TableRow>
             </TableLayout>
+
                 <RelativeLayout
                     android:layout_width="match_parent"
-                    android:layout_marginTop="@dimen/layout_marginTop"
-                    android:layout_height="match_parent">
+                    android:layout_height="46dp"
+                    android:layout_marginTop="@dimen/layout_marginTop">
 
                     <TextView
-                        android:text="@string/facebook"
+                        android:id="@+id/textView15"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_alignParentTop="true"
-                        android:layout_toRightOf="@+id/imageView13"
-                        android:layout_toEndOf="@+id/imageView13"
                         android:layout_marginLeft="10dp"
                         android:layout_marginStart="10dp"
-                        android:id="@+id/textView15"
-                        tools:ignore="RelativeOverlap"
-                        android:textSize="@dimen/text_size_standard"/>
+                        android:layout_toEndOf="@+id/imageView13"
+                        android:layout_toRightOf="@+id/imageView13"
+                        android:text="@string/facebook"
+                        android:textSize="@dimen/text_size_standard"
+                        tools:ignore="RelativeOverlap" />
 
                     <TextView
-                        android:text="@string/entra_a_nuestra_red_social"
+                        android:id="@+id/textView16"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView16"
-                        android:textSize="@dimen/text_size_standard1"
                         android:layout_alignParentBottom="true"
-                        android:layout_toRightOf="@+id/imageView13"
                         android:layout_toEndOf="@+id/imageView13"
+                        android:layout_toRightOf="@+id/imageView13"
+                        android:text="@string/entra_a_nuestra_red_social"
+                        android:textSize="@dimen/text_size_standard1"
                         tools:ignore="SmallSp" />
 
                     <ImageView
+                        android:id="@+id/imageView14"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/edmodo"
-                        android:id="@+id/imageView14"
-                        tools:ignore="ContentDescription"
                         android:layout_alignParentTop="true"
-                        android:layout_toRightOf="@+id/textView16"
-                        android:layout_toEndOf="@+id/textView16"
                         android:layout_marginLeft="11dp"
-                        android:layout_marginStart="11dp" />
+                        android:layout_marginStart="11dp"
+                        android:layout_toEndOf="@+id/textView16"
+                        android:layout_toRightOf="@+id/textView16"
+                        app:srcCompat="@drawable/edmodo"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
-                        android:text="@string/entra_a_nuestra_plataforma"
+                        android:id="@+id/textView19"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/textView19"
-                        android:textSize="10sp"
-                        tools:ignore="SmallSp"
                         android:layout_alignParentBottom="true"
+                        android:layout_toEndOf="@+id/imageView14"
                         android:layout_toRightOf="@+id/imageView14"
-                        android:layout_toEndOf="@+id/imageView14" />
+                        android:text="@string/entra_a_nuestra_plataforma"
+                        android:textSize="10sp"
+                        tools:ignore="SmallSp" />
 
                     <ImageView
+                        android:id="@+id/imageView13"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        app:srcCompat="@drawable/face"
-                        android:id="@+id/imageView13"
-                        tools:ignore="ContentDescription"
-                        android:layout_alignParentTop="true"
                         android:layout_alignParentLeft="true"
                         android:layout_alignParentStart="true"
+                        android:layout_alignParentTop="true"
                         android:layout_marginLeft="8dp"
-                        android:layout_marginStart="8dp" />
+                        android:layout_marginStart="8dp"
+                        app:srcCompat="@drawable/face"
+                        tools:ignore="ContentDescription" />
 
                     <TextView
-                        android:text="@string/edmodo"
+                        android:id="@+id/textView18"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:textSize="@dimen/text_size_standard"
-                        android:id="@+id/textView18"
                         android:layout_alignParentTop="true"
-                        android:layout_toRightOf="@+id/imageView14"
-                        android:layout_toEndOf="@+id/imageView14"
                         android:layout_marginLeft="9dp"
-                        android:layout_marginStart="9dp" />
+                        android:layout_marginStart="9dp"
+                        android:layout_toEndOf="@+id/imageView14"
+                        android:layout_toRightOf="@+id/imageView14"
+                        android:text="@string/edmodo"
+                        android:textSize="@dimen/text_size_standard" />
                 </RelativeLayout>
+
                 <LinearLayout
                     android:orientation="horizontal"
                     android:layout_width="match_parent"
@@ -265,23 +272,25 @@
                     android:layout_height="match_parent">
 
                     <Button
-                        android:text="@string/inicio"
+                        android:id="@+id/btnIniciarSesion"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/btnIniciarSesion"
                         android:layout_weight="1"
-                        android:textSize="@dimen/text_size_standard"
+                        android:background="@color/colorRojo"
+                        android:text="@string/inicio"
                         android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/text_size_standard"
                         tools:ignore="ButtonStyle" />
 
                     <Button
-                        android:text="@string/registrarse"
+                        android:id="@+id/btnRegistrase"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:id="@+id/btnRegistrase"
-                        android:textSize="@dimen/text_size_standard"
                         android:layout_weight="1"
+                        android:background="@color/colorRojo"
+                        android:text="@string/registrarse"
                         android:textColor="@android:color/background_light"
+                        android:textSize="@dimen/text_size_standard"
                         tools:ignore="ButtonStyle" />
                 </LinearLayout>
             </LinearLayout>
