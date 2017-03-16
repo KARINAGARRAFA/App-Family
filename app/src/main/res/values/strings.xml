@@ -52,4 +52,10 @@
     <string name="verificar">Verificar Cuenta</string>
     <string name="verifi">Verificación de DNI</string>
     <string name="iniciar">Iniciar SESION? </string>
+
+    <string name="no">No</string>
+    <string name="mensaj">MENSAJE DE RESPUESTA</string>
+    <string name="si">SI</string>
+    <string name="confcuenta">YA tengo mi cuenta</string>
+    <string name="mensajconf">MENSAJE DE CONFIRMACION</string>
 </resources>
