@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">24dp</dimen>
+    <dimen name="text_size_bienvenido">30sp</dimen>
+    <dimen name="text_size_standard">20sp</dimen>
+    <dimen name="text_size_standard1">14sp</dimen>
+    <dimen name="text_size_standard2">30sp</dimen>
+    <dimen name="layout_marginTop">60dp</dimen>
+    <dimen name="layout_marginTop2">50dp</dimen>
+</resources>
