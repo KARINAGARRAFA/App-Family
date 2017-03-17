@@ -14,4 +14,12 @@
     <color name="colorverde">#558b2f</color>
     <color name="colorCeleste">#00acc1</color>
     <color name="colorRojo">#e53935</color>
+    <color name="primary">#F44336</color>
+    <color name="primary_dark">#D32F2F</color>
+    <color name="primary_light">#FFCDD2</color>
+    <color name="accent">#CDDC39</color>
+    <color name="primary_text">#212121</color>
+    <color name="secondary_text">#757575</color>
+    <color name="icons">#FFFFFF</color>
+    <color name="divider">#BDBDBD</color>
 </resources>
