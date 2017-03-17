@@ -47,7 +47,7 @@
         <activity
             android:name=".Ubicacion"
             android:label="@string/title_activity_ubicacion" />
-        <activity android:name=".VerificacionDni"></activity>
+        <activity android:name=".VerificacionDni" />
     </application>
 
 </manifest>

@@ -52,4 +52,15 @@
     <string name="verificar">Verificar Cuenta</string>
     <string name="verifi">Verificación de DNI</string>
     <string name="iniciar">Iniciar SESION? </string>
+
+    <!-- Strings de Registro de apoderados -->
+    <string name="bienvenido">BIENVENIDO : </string>
+    <string name="numerocel">ingrese su numero de celular</string>
+    <string name="correo">Ingrese su correo electronico</string>
+    <string name="datosInicio">Datos de Inicio de Sesion</string>
+    <string name="usuarioAP">Ingrese su nombre de usuario</string>
+    <string name="Contrasenia">Ingrese su contraseña</string>
+    <string name="contreDE">Repita su contraseña</string>
+    <string name="busque">Busque por DNI o nombre de su hijo</string>
+    <string name="title_activity_registro_alumnos">Registro_alumnos</string>
 </resources>
