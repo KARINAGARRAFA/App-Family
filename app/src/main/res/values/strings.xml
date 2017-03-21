@@ -53,7 +53,7 @@
     <string name="verifi">Verificación de DNI</string>
     <string name="iniciar">Iniciar SESION? </string>
 
-<<<<<<< HEAD
+
     <!-- Strings de Registro de apoderados -->
     <string name="bienvenido">BIENVENIDO : </string>
     <string name="numerocel">ingrese su numero de celular</string>
@@ -64,11 +64,11 @@
     <string name="contreDE">Repita su contraseña</string>
     <string name="busque">Busque por DNI o nombre de su hijo</string>
     <string name="title_activity_registro_alumnos">Registro_alumnos</string>
-=======
+
     <string name="no">No</string>
     <string name="mensaj">MENSAJE DE RESPUESTA</string>
     <string name="si">SI</string>
     <string name="confcuenta">YA tengo mi cuenta</string>
     <string name="mensajconf">MENSAJE DE CONFIRMACION</string>
->>>>>>> 57618ef16b19436aae26d6416e236e9e3674ff70
+
 </resources>
