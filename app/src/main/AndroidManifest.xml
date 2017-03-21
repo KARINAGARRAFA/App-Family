@@ -48,12 +48,8 @@
             android:name=".Ubicacion"
             android:label="@string/title_activity_ubicacion" />
         <activity android:name=".VerificacionDni" />
-<<<<<<< HEAD
-=======
-        <activity android:name=".Confirmar_dni" />
-        <activity android:name=".Confirmar_Dni_Error" />
-        <activity android:name=".estudiante.Pagina_Incio"></activity>
->>>>>>> 57618ef16b19436aae26d6416e236e9e3674ff70
-    </application>
+
+</application>
+
 
 </manifest>
