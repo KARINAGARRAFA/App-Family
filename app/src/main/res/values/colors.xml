@@ -11,8 +11,13 @@
     <color name="colorDivider">#BDBDBD</color>
     <color name="colorNaranja">#e65100</color>
     <color name="colorNegro">#000</color>
+    <color name="colorpermiso">#0e6b14</color>
+    <color name="coloramarillo">#f2ea02</color>
     <color name="colorverde">#558b2f</color>
+    <color name="colorassi">#81df15</color>
     <color name="colorCeleste">#00acc1</color>
+    <color name="colorencabezdo">#56c9d7</color>
+    <color name="colorencabezdos">#8bdce6</color>
     <color name="colorRojo">#e53935</color>
     <color name="primary">#F44336</color>
     <color name="primary_dark">#D32F2F</color>
@@ -22,4 +27,8 @@
     <color name="secondary_text">#757575</color>
     <color name="icons">#FFFFFF</color>
     <color name="divider">#BDBDBD</color>
+    <color name="sobreado">#e2e0e0</color>
+
+    <color name="negro_semitransparente">#B2000000</color>
+    <color name="blanco">#fafafa</color>
 </resources>

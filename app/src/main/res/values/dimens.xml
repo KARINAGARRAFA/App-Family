@@ -7,9 +7,15 @@
     <dimen name="text_size_standard">14sp</dimen>
     <dimen name="text_size_standard2">20sp</dimen>
     <dimen name="text_size_standard1">10sp</dimen>
-    <dimen name="layout_marginTop">10dp</dimen>
-    <dimen name="layout_marginTop2">10dp</dimen>
+    <dimen name="layout_marginTop">20dp</dimen>
+    <dimen name="layout_marginTop2">30dp</dimen>
+    <dimen name="layout_marginTop3">80dp</dimen>
+    <dimen name="tamanoRelative">155dp</dimen>
+
 
     <item name="visible" type="id" />
     <item name="masked" type="id" />
+    <dimen name="nav_header_vertical_spacing">16dp</dimen>
+    <dimen name="nav_header_height">160dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
 </resources>

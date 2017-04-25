@@ -1,0 +1,316 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.lsc.familialaureana.view.Alumno.AsistenciaAlumno">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:layout_editor_absoluteY="8dp"
+        tools:layout_editor_absoluteX="8dp">
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="LEYENDA"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textAlignment="center" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorassi"
+                android:text="@string/asistencia"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/coloramarillo"
+                android:text="@string/tardanza"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorpermiso"
+                android:text="@string/permiso"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/colorRojo"
+                android:text="@string/falta"/>
+
+
+        </LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/blanco"/>
+
+        <EditText
+            android:id="@+id/editText"
+
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:text="12- 02 -12"
+            android:inputType="date" />
+
+
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="30dp"
+            android:stretchColumns="*"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombre"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="nombres y apellidos"/>
+                <TextView
+                    android:id="@+id/primerb"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="Estado"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrealun1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asistelun1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" A "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/sobreado"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea2"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="A"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea3"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="T"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/sobreado"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea4"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="F"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea5"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="T"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/sobreado"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea6"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="A"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea7"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste7"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="A"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/sobreado"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea8"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste8"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="T"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea9"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Juan Tello Soto"/>
+                <TextView
+                    android:id="@+id/asiste9"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="F"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/sobreado"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombreal1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Sonia Ancco Santo"/>
+                <TextView
+                    android:id="@+id/asisteal1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="A"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrea1"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="Sonia Ancco Santo"/>
+
+
+
+                <TextView
+                    android:id="@+id/asiste"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="A"/>
+
+            </TableRow>
+        </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

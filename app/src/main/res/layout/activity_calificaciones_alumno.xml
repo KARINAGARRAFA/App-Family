@@ -1,0 +1,486 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@color/sobreado"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="pe.edu.lsc.familialaureana.view.Alumno.CalificacionesAlumno">
+
+    <LinearLayout
+        android:layout_width="344dp"
+        android:layout_height="551dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        >
+    <ProgressBar
+        android:id="@+id/login_progress"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" />
+    <ScrollView
+        android:id="@+id/login_form"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:text="@string/resumen"
+            android:textSize="18dp"
+            android:textColor="#000000"
+            android:textAlignment="center" />
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="0"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombre"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdo"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:text="nombres y apellidos"/>
+                <TextView
+                    android:id="@+id/primerb"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IB  "/>
+                <TextView
+                    android:id="@+id/segundob"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IIB  "/>
+                <TextView
+                    android:id="@+id/tercerb"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IIIB  "/>
+                <TextView
+                    android:id="@+id/cuartob"
+                    android:textColor="#000000"
+
+                    android:background="@color/colorencabezdo"
+                    android:gravity="center"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="IVB  "/>
+                <TextView
+                    android:id="@+id/promedio"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PROMEDIO"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/icons"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombreAlumno"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="JUAN  perez"/>
+                <TextView
+                    android:id="@+id/notaIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/promedioNOTA"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+        </TableLayout>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/resumenx"
+            android:textColor="#000000"
+            android:textSize="18dp"
+            android:textAlignment="center"
+            android:layout_marginTop="30dp"/>
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_marginTop="10dp"
+            android:stretchColumns="0"
+            android:layout_height="wrap_content">
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/curso"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/curso"
+                    android:textAlignment="center"/>
+                <TextView
+                    android:id="@+id/primerbi"
+                    android:background="@color/colorencabezdos"
+                    android:textColor="#000000"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IB  "/>
+                <TextView
+                    android:id="@+id/segundobi"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IIB  "/>
+                <TextView
+                    android:id="@+id/tercerbi"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IIIB  "/>
+                <TextView
+                    android:id="@+id/cuartobi"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="IVB  "/>
+                <TextView
+                    android:id="@+id/promediocur"
+                    android:textColor="#000000"
+                    android:background="@color/colorencabezdos"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="PROMEDIO"/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/icons"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrecurso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/Matemat"/>
+                <TextView
+                    android:id="@+id/notaIBi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIBi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIBi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVBi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/promedioNOTAcurso"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sobreado">
+                <TextView
+                    android:id="@+id/nombreLenguaje"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/comuni"/>
+                <TextView
+                    android:id="@+id/notaIBim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIBim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIBim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVBim"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/promedioNOTAcominuca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/icons"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombrerobotica"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/robotica"/>
+                <TextView
+                    android:id="@+id/notaIBie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIBie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIBie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVBie"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/promedioNOTArobo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sobreado">
+                <TextView
+                    android:id="@+id/nombrehis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/historia"/>
+                <TextView
+                    android:id="@+id/notaIBis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIBis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIBis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVBis"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/promedioNOTAhisto"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:background="@color/icons"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/nombregeo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/geografia"/>
+                <TextView
+                    android:id="@+id/notaIBit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIBit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIBit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVBit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/promedioNOTAgeo"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@color/sobreado">
+                <TextView
+                    android:id="@+id/cursoPro"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="@string/progra"/>
+                <TextView
+                    android:id="@+id/notaIBir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 11  "/>
+                <TextView
+                    android:id="@+id/notaIIBir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text=" 13  "/>
+                <TextView
+                    android:id="@+id/notaIIIBir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11 "/>
+                <TextView
+                    android:id="@+id/notaIVBir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+                <TextView
+                    android:id="@+id/NOTAprogra"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="  11  "/>
+
+            </TableRow>
+            <View
+                android:layout_height="2dp"
+                android:background="#000000" />
+
+        </TableLayout>
+        </LinearLayout>
+    </ScrollView>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

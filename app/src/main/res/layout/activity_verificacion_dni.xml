@@ -9,8 +9,7 @@
     android:paddingBottom="@dimen/activity_vertical_margin"
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
-    android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="pe.edu.lsc.familialaureana.VerificacionDni">
+    tools:context="pe.edu.lsc.familialaureana.view.VerificacionDni">
 
     <ProgressBar
         android:id="@+id/login_progress"
@@ -73,22 +72,13 @@
                 android:textColor="@android:color/background_light"
                 android:textStyle="normal|bold"
                 android:textSize="@dimen/text_size_standard2" />
-            <TextView
-                android:text="@string/iniciar"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/textREgistrase"
-                android:layout_marginTop="@dimen/layout_marginTop"
-                android:textAlignment="center"
-                android:textSize="@dimen/text_size_standard"
-                android:textColor="@android:color/holo_red_dark" />
             <Button
                 android:text="@string/ya_tengo_mi_cuenta"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="@dimen/layout_marginTop"
-                android:background="@color/colorRojo"
-                android:textColor="@android:color/background_light"
+                android:layout_marginTop="@dimen/layout_marginTop2"
+                android:background="@color/colorPrimaryLight"
+                android:textColor="@android:color/holo_orange_dark"
                 android:textStyle="normal|bold"
                 android:textSize="@dimen/text_size_standard2"
                 android:id="@+id/btnYaCuanta" />
