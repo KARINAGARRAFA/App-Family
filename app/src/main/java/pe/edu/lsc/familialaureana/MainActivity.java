@@ -9,18 +9,26 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
 import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
-    Button boton,btnInisiarSesion;
-    ImageView btnMensaje, btnLlamada,btnUbicacion;
+import pe.edu.lsc.familialaureana.view.LoginGeneral;
+import pe.edu.lsc.familialaureana.view.Mensajes;
+import pe.edu.lsc.familialaureana.view.RegistroG;
+import pe.edu.lsc.familialaureana.view.Ubicacion;
 
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+
+    // variables globales
+    Button boton,btnInisiarSesion;
+    ImageView btnMensaje, btnLlamada,btnUbicacion,btnvisitaweb,btnFace,btnEdmodo;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
+        // instanciacion de las variables globales
         boton = (Button) findViewById(R.id.btnRegistrase);
         boton.setOnClickListener(this);
         btnInisiarSesion = (Button) findViewById(R.id.btnIniciarSesion);
@@ -31,11 +39,21 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnLlamada.setOnClickListener(this);
         btnUbicacion = (ImageView) findViewById(R.id.imageUbicacion);
         btnUbicacion.setOnClickListener(this);
+        btnvisitaweb = (ImageView) findViewById(R.id.imageVisita);
+        btnvisitaweb.setOnClickListener(this);
+        btnFace = (ImageView) findViewById(R.id.imageFace);
+        btnFace.setOnClickListener(this);
+        btnEdmodo = (ImageView) findViewById(R.id.imageEdmodo);
+        btnEdmodo.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {
         Intent i;
+        Uri uri;
+        Intent in;
+        // actividad a realizarse al precionar sobre un botton u otro elemento segun sea el caso
         switch (v.getId()) {
             case R.id.btnRegistrase:
                 i = new Intent(this, RegistroG.class);
@@ -68,6 +86,22 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                 i=new Intent(this,Ubicacion.class);
                 startActivity(i);
                 break;
+            case R.id.imageVisita:
+                uri = Uri.parse("https://jarroba.com/como-solucionar-errores-en-android/");
+                in = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(in);
+                break;
+            case R.id.imageFace:
+                uri = Uri.parse("https://www.facebook.com/lsc.edu.pe/");
+                in = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(in);
+                break;
+            case R.id.imageEdmodo:
+                uri = Uri.parse("https://www.edmodo.com/");
+                in = new Intent(Intent.ACTION_VIEW, uri);
+                startActivity(in);
+                break;
+
 
             default:
                 break;

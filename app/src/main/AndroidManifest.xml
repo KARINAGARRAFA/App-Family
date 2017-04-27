@@ -18,20 +18,40 @@
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
-        android:label="@string/app_name"
+        android:label="@string/nombre"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".RegistroG" />
-        <activity android:name=".LoginGeneral" />
-        <activity android:name=".Mensajes" />
+        <activity
+            android:name=".view.RegistroG"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.LoginGeneral"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.Mensajes"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
         <!--
              The API key for Google Maps-based APIs is defined as a string resource.
              (See the file "res/values/google_maps_api.xml").
@@ -45,11 +65,95 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".Ubicacion"
-            android:label="@string/title_activity_ubicacion" />
-        <activity android:name=".VerificacionDni" />
-
-</application>
-
+            android:name=".view.Ubicacion"
+            android:label="@string/title_activity_ubicacion"
+            android:parentActivityName=".MainActivity">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".MainActivity" />
+        </activity>
+        <activity
+            android:name=".view.VerificacionDni"
+            android:parentActivityName=".view.RegistroG">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.RegistroG" />
+        </activity>
+        <activity
+            android:name=".view.RecuperarContrasenia"
+            android:parentActivityName=".view.LoginGeneral">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.LoginGeneral" />
+        </activity>
+        <activity
+            android:name=".view.Padre.PruevaHorario"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.Padre.InsigniasPadre"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.Padre.CalificaionesPadre"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.Padre.AsistenciaPadre"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.Padre.PaginaPrincipalDocet"
+            android:label="@string/title_activity_pagina_principal_docet"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".view.NuevaPublicacion"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.NuevaConversacion"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.CuentaUsuario"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.Buscar"
+            android:parentActivityName=".view.Padre.PaginaPrincipalDocet">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value=".view.Padre.PaginaPrincipalDocet" />
+        </activity>
+        <activity
+            android:name=".view.Alumno.PagPrincipalAlum"
+            android:label="@string/title_activity_pag_principal_alum"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".view.Alumno.CalificacionesAlumno" />
+        <activity android:name=".view.Alumno.AsistenciaAlumno" />
+        <activity android:name=".view.Alumno.InsigniasAlumno" />
+        <activity android:name=".view.Alumno.HorarioAlumno"></activity>
+    </application>
 
 </manifest>

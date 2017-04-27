@@ -9,4 +9,7 @@
     <dimen name="text_size_standard2">40sp</dimen>
     <dimen name="layout_marginTop">40dp</dimen>
     <dimen name="layout_marginTop2">60dp</dimen>
+    <dimen name="tamanoRelative">400dp</dimen>
+
+    <dimen name="layout_marginTop3">130dp</dimen>
 </resources>

@@ -1,5 +1,6 @@
 <resources>
-    <string name="app_name">Laura Santa Catalina</string>
+    <string name="nombre">FamiliaLaureana</string>
+    <string name="app_name"></string>
     <string name="title_activity_pre_registro">Pre_registro</string>
     <string name="estuante">Estudiante</string>
     <string name="ya_tengo_mi_cuenta">Ya tengo mi cuenta</string>
@@ -25,6 +26,7 @@
     <string name="ver_ubicaion_en_mapa">Ver ubicaion en mapa</string>
     <string name="mensaje">Mensaje</string>
     <string name="title_activity_login">Login</string>
+    <string name="buscar">Buscar...</string>
 
     <string name="login">Inicie sesion con su cuenta</string>
     <string name="usuario">Usuario</string>
@@ -40,10 +42,10 @@
     <string name="prompt_email">Email</string>
     <string name="prompt_password">Password (optional)</string>
     <string name="action_sign_in">Sign in or register</string>
-    <string name="error_invalid_email">This email address is invalid</string>
-    <string name="error_invalid_password">This password is too short</string>
+    <string name="error_invalid_email">el correo es incorrecto</string>
+    <string name="error_invalid_password">ingrese almenos 4 caracteres</string>
     <string name="error_incorrect_password">This password is incorrect</string>
-    <string name="error_field_required">This field is required</string>
+    <string name="error_field_required">ingrese su correo</string>
     <string name="permission_rationale">"Contacts permissions are needed for providing email
         completions."
     </string>
@@ -70,5 +72,62 @@
     <string name="si">SI</string>
     <string name="confcuenta">YA tengo mi cuenta</string>
     <string name="mensajconf">MENSAJE DE CONFIRMACION</string>
+
+    <!-- String de layout de REcuperar contraseña -->
+    <string name="verificarCont">Enviar Mensaje A EMAIL</string>
+    <string name="recuperar">Recupere su Contraseña</string>
+    <string name="title_activity_referencia">ReferenciaActivity</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_pag_principal_padre">PagPrincipalPadre</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_prueva_tab">pruevaTabActivity</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+
+    <string-array name="horario">
+        <item>Horario Semanal</item>
+        <item>Calendario de Actividades</item>
+    </string-array>
+    <string name="filtrar">Filtrar por: </string>
+    <string name="filtraHijo">Seleccionar nombre del hijo</string>
+
+    <string name="title_activity_prueva_navigation">PruevaNavigation</string>
+
+
+    <string name="progra">Programación</string>
+    <string name="Matemat">Matematicas</string>
+    <string name="comuni">Comunicacion</string>
+    <string name="robotica">Robotica</string>
+    <string name="historia">Historia</string>
+    <string name="geografia">Geografía</string>
+
+    <string name="logro">LOGRO ESPERADO</string>
+    <string name="resumen">Resumen de notas por semestre</string>
+    <string name="resumenx">Resumen de notas por asignaturas</string>
+    <string name="curso">CURSOS</string>
+
+    <string name="asistencia">A: Asistio   </string>
+    <string name="tardanza">T: Tarde   </string>
+    <string name="permiso">P: Per. justificado   </string>
+    <string name="falta">F: Falta </string>
+    <string name="blanco">Blanco: Asistencia no marcada</string>
+    <string name="title_activity_prueva_navegador">pruevaNavegador</string>
+    <string name="title_activity_navegador_pruevas">NavegadorPruevas</string>
+    <string name="title_activity_pagina_principal_docet">PaginaPrincipalDocet</string>
+
+
+    <string name="namepestaña1">franment uno</string>
+    <string name="namepestaña2">franment dos</string>
+    <string name="namepestaña13">franment tres</string>
+
+    <string name="publicaion1w">Se comunica a todos los padres de familia de primer grado de primaria, a una reunion que se llevara a cabo el dia 3 de frebrero del presente año, n el aula de clase. para tratar sobre los paseos del campo. </string>
+    <string name="title_activity_pag_principal_alum">PagPrincipalAlum</string>
+
 
 </resources>

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:icon="@drawable/ic_menu_camera"
+            android:id="@+id/publicaciones"
+            android:title="Publicaciones" />
+        <item
+            android:id="@+id/horarios"
+            android:title="Horarios" />
+        <item
+            android:id="@+id/insignias"
+            android:title="Insignias" />
+        <item
+            android:id="@+id/calificaciones"
+            android:title="Calificaciones"/>
+        <item
+            android:id="@+id/assitencias"
+            android:title="Asistencias" />
+    </group>
+
+    <item android:title="Perfil">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:title="Mi cuenta" />
+            <item
+                android:id="@+id/nav_send"
+                android:title="Privacida" />
+            <item
+                android:id="@+id/nav_configuraciones"
+                android:title="Configuraciones" />
+            <item
+                android:id="@+id/nav_salir"
+                android:title="Salir" />
+        </menu>
+    </item>
+
+</menu>
